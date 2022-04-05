@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369929382508",
+    "project_id": "demoex-182ce",
+    "storage_bucket": "demoex-182ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369929382508:android:21c71c483d5de7fc210649",
+        "android_client_info": {
+          "package_name": "com.example.demoex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369929382508-4ptctohrbc9d993b1g5aa9jehdj9ml7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXIWlxvqMrkb2eW8bt6NlfNeCmcMeSVn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369929382508-4ptctohrbc9d993b1g5aa9jehdj9ml7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

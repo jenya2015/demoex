@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/image_first"
+                    android:contentDescription="@string/todo" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/back_film"
+                    android:contentDescription="@string/todo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="293dp"
+                    android:layout_marginBottom="63dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginRight="120dp"
+                        android:backgroundTint="#43DED0"
+                        android:gravity="center"
+                        android:text="@string/see" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#150D0B"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:includeFontPadding="true"
+                    android:text="@string/trand"
+                    android:textColor="#43DED0"
+                    android:textColorHighlight="#43DED0"
+                    android:textColorHint="#43DED0"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@drawable/luzifer"
+                            tools:ignore="ImageContrastCheck" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/got"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/sex_education"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@drawable/luzifer"
+                            tools:ignore="ImageContrastCheck" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/nerw"
+                    android:textColor="#43DED0"
+                    android:textColorHighlight="#43DED0"
+                    android:textColorHint="#43DED0"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/reason_why"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/reason_why"
+                            android:contentDescription="@string/todo" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/foryou"
+                    android:textColor="#43DED0"
+                    android:textColorHighlight="#43DED0"
+                    android:textColorHint="#43DED0"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/westworld"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/jesica_jones"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/constantine"
+                            android:contentDescription="@string/todo" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/westworld"
+                            android:contentDescription="@string/todo" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/bottombackground" />
+    </LinearLayout>
+
+</LinearLayout>
